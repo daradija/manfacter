@@ -163,7 +163,23 @@ Con esas precisiones podré iterar y enfocar mejor la investigación.
 ## Respuesta de guia
 generación de código es la línea. Descarta enfoques creativos. Experiencia iterativa. No hace falta valoraciones en esta etapa. Diseño industrial en general.
 
+Mientras genero sigo viendo paper.
+
+# Paper relevante
+https://arxiv.org/html/2401.06437v1#:~:text=remains%20a%20significant%20challenge%20to,Our%20work%20highlights
+
+Incluye un interfaz tipo Juppyter Notebook.
+
+In this study, we have developed a pipeline designed for the generation of 3D shapes with parametric controls and engineering semantics, harnessing the power of multimodal LLMs to utilize 3D software through program synthesis. We introduced \dataset, a comprehensive dataset supported by a specialized testing program, to critically assess the capabilities of LLMs within this innovative context. Our investigation into various generative strategies has identified key techniques that significantly enhance model performance in different dimensions. We have also explored the effectiveness of a visual interface in augmenting the self-correction abilities of LLMs. Our experiments and analysis have revealed the capacities of LLMs in spatial reasoning, geometric computing, program synthesis and multimodal self-correction.
+
+A mi entender es lo que quiere el cliente.
+
+Mi consejo sería contactar con Zeqing Yuan
+
+Adjunto enlace de chatgpt para ver respuesta:
+
+https://chatgpt.com/share/67de5989-d2e4-8012-9867-521f6ee48f4b
 
 
 # Tiempo de trabajo
-22 Marzo 6:45
+22 Marzo 6:45 - 7:45
