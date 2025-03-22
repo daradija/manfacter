@@ -180,6 +180,19 @@ Adjunto enlace de chatgpt para ver respuesta:
 
 https://chatgpt.com/share/67de5989-d2e4-8012-9867-521f6ee48f4b
 
+Extractos interesante:
+
+Onshape para crear y editar modelos 3D en tiempo real. Usando la API de Onshape, 
+Funciona con scripts de python. 
+
+“Necesito un soporte en forma de L de 100mm de alto con 4 agujeros para tornillos M6, uno en cada extremo de las patas” y en segundos obtener un modelo paramétrico con esos rasgos. Esto reduciría drásticamente el tiempo de concept modeling y permitiría probar múltiples ideas simplemente describiéndolas. 
+
+OnshapeGPT sugirió casos educativos: facilitar que estudiantes de primaria o secundaria generen modelos 3D lúdicos (un sistema solar, moléculas) sin saber CAD,
+
+unque actualmente limitado a demostraciones sencillas, la capacidad de “entender lenguaje y manipular un robusto kernel CAD en la nube” abre la puerta a asistentes comerciales en plataformas como Onshape, Fusion 360, SolidWorks, etc.
+
+
+
 
 # Tiempo de trabajo
 22 Marzo 6:45 - 7:45
