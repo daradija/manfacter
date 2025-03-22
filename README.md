@@ -122,6 +122,47 @@ En conclusión, **ambos mundos se alimentan mutuamente**: los avances académico
 
 **Referencias:** Las descripciones y datos provistos se basan en publicaciones recientes de investigación (Google ([Google’s DreamFusion turns text into 3D models | CG Channel](https://www.cgchannel.com/2022/10/googles-dreamfusion-turns-text-into-3d-models/#:~:text=The%20approach%2C%20which%20combines%20a,as%20base%20meshes%20for%20sculpting)) ([Google’s DreamFusion turns text into 3D models | CG Channel](https://www.cgchannel.com/2022/10/googles-dreamfusion-turns-text-into-3d-models/#:~:text=DreamFusion%20turns%20text%20descriptions%20into,a%20kimono%20playing%20the%20saxophone%E2%80%99)), NVIDIA ([Generating 3D models from text with Nvidia’s Magic3D - 3D Printing Industry](https://3dprintingindustry.com/news/generating-3d-models-from-text-with-nvidias-magic3d-220520/#:~:text=Magic3D%20creates%20a%203D%20mesh,two%20weeks%20using%208%2C000%20models)) ([Generating 3D models from text with Nvidia’s Magic3D - 3D Printing Industry](https://3dprintingindustry.com/news/generating-3d-models-from-text-with-nvidias-magic3d-220520/#:~:text=The%20researchers%20in%20the%20paper,%E2%80%9D)), OpenAI ([from avocado chair to banana plane, OpenAI’s new tool generates text-to-3D print objects](https://www.designboom.com/technology/avocado-chair-banana-airplane-shap-e-openai-text-to-image-3d-printing-05-12-2023/#:~:text=intelligence%20%20model%20that%20can,a%20few%20words%20or%20descriptions)) ([from avocado chair to banana plane, OpenAI’s new tool generates text-to-3D print objects](https://www.designboom.com/technology/avocado-chair-banana-airplane-shap-e-openai-text-to-image-3d-printing-05-12-2023/#:~:text=Shap,representation%20output%20space.%E2%80%99)), ANU/Oxford ([[2310.12945] 3D-GPT: Procedural 3D Modeling with Large Language Models](https://ar5iv.org/pdf/2310.12945.pdf#:~:text=To%20reduce%20workload%2C%20we%20introduce,with%203D%20software%20for%20asset)) ([[2310.12945] 3D-GPT: Procedural 3D Modeling with Large Language Models](https://ar5iv.org/pdf/2310.12945.pdf#:~:text=creation,a%20basic%20framework%20for%20future)), Zhejiang Univ. ([\dataset: Can Large Language Models Generate 3D Shapes with Sharp Features and Parametric Control?](https://arxiv.org/html/2401.06437v1#:~:text=remains%20a%20significant%20challenge%20to,Our%20work%20highlights)) ([\dataset: Can Large Language Models Generate 3D Shapes with Sharp Features and Parametric Control?](https://arxiv.org/html/2401.06437v1#:~:text=This%20work%20explores%20a%20novel,is%20advantageous%20for%20two%20reasons)), etc.) así como en documentación y reseñas de productos comerciales (Masterpiece X ([AI 3D Model Generation Tools for Businesses (2024) - Shopify](https://www.shopify.com/blog/ai-3d-model-generation#:~:text=Masterpiece%20X%20uses%20natural%20language,credit%20free%20trial)), 3DFY ([AI 3D Model Generation Tools for Businesses (2024) - Shopify](https://www.shopify.com/blog/ai-3d-model-generation#:~:text=3DFY,online%20database%20after%2072%20hours)), Sloyd ([How to prompt in Sloyd - Generating 3D assets](https://www.sloyd.ai/blog/how-to-prompt-in-sloyd-generating-3d-assets#:~:text=Prompting%20is%20the%20use%20of,and%20jump%20straight%20into%20customization)) ([How to prompt in Sloyd - Generating 3D assets](https://www.sloyd.ai/blog/how-to-prompt-in-sloyd-generating-3d-assets#:~:text=1,assemble%20those%20parts%20for%20you)), Spline ([AI 3D Generation Models, Applications and Tools: The Big List](https://aibusiness.com/nlp/ai-3d-generation-models-applications-and-tools-the-big-list#:~:text=Spline%20AI)), Meshcapade ([AI 3D Model Generation Tools for Businesses (2024) - Shopify](https://www.shopify.com/blog/ai-3d-model-generation#:~:text=German%20AI,integration%20into%20existing%20digital%20systems))). Estas fuentes han sido citadas en el texto donde correspondía para avalar cada afirmación específica.
 
+# Te comparto observaciones.
+
+# DreamFusion
+No buscamos DreamFusion porque el modelo no es CAD y no tiene iteración en la definición del objeto.  Es verdad que este modelo incluye una idea para migrar alzado planta y perfil a un modelo. La idea consiste en generar proyecciones de piezas para luego generar el corpus de entrenamiento. Idea que no supe ver en la entrevista de trabajo inicial. Llama la atención que no sean abierto los promt, luego no se consiguió una buena experiencia de usuario quedando el producto como demo. Google tiene este modelo de negocio en mente, es una alerta para una startup, o puede ser como una oportunidad para ser vendida a multinacional. Google fotos vende las fotos impresas. 
+
+## Magic3D. 
+Vuelve a ser creativo, ideal para industria de video juegos, figuras lúdicas. No para el diseño de piezas. Me hace pensar si esta industria no es un target mas apropiado. Ya que el que pide una pieza está mas acostumbrado a programas de tipo CAD. En cambio un usuario final puede pedir una figura, colorearla, imprimirla. Por ejemplo usar el iphone para un escaneo 3D y luego conseguir la foto 3D impresa. Vi hace tiempo un video que hacía esto en Japón. Pero era un proceso de estudio. Con los iphone y una app la producción se puede abaratar. 
+Riesgo a contemplar: Tiempo de respuesta elevado.
+Riesgo: NVidia también persigue este objetivo.
+
+## Shap-E
+Todos los modelos cumplen el mismo patrón. Dejo de leer a partir de aquí. Quiero centrarme en modelos CAD, industriales y con experiencia interactiva. 
+
+Aunque tengo mis dudas sobre el target de clientes y los riesgos. Decido parar para cambiar impresiones con cliente. 
+
+## ¿El encargo se adapta a mi pefil?
+- Se usa tecnología de aproximación diferenciable, esto coincide con mi especialización en el doctorado. 
+- Se usa programación con GPUs, esta es otra especialidad mio.
+
+## Palabras claves. 
+NeRF, Difusión, 
+
+# Iteración Chatgpt.
+
+Gracias por las observaciones, son muy útiles. Para ajustar la investigación a tu perfil e intereses, ¿podrías confirmar o precisar lo siguiente?
+
+1. ¿Quieres que me centre únicamente en experiencias que usan modelos CAD o geometría paramétrica (por ejemplo, generación de código en OpenSCAD, SolidWorks, Blender scripting), descartando enfoques creativos como DreamFusion o Magic3D?
+
+2. ¿Debo priorizar aplicaciones con interacción iterativa (por ejemplo, asistentes que permiten modificar el diseño con nuevas instrucciones)?
+
+3. ¿Prefieres enfoques aplicables al diseño industrial o fabricación (piezas técnicas, dispositivos, prototipos físicos)?
+
+4. ¿Quieres que incluya una valoración del posible encaje con tu perfil técnico y profesional (uso de GPUs, optimización diferenciable, etc.) en cada caso?
+
+5. ¿Hay algún sector industrial en particular que te interese (por ejemplo, automoción, medical devices, maquinaria)?
+
+Con esas precisiones podré iterar y enfocar mejor la investigación.
+
+## Respuesta de guia
+generación de código es la línea. Descarta enfoques creativos. Experiencia iterativa. No hace falta valoraciones en esta etapa. Diseño industrial en general.
+
 
 
 # Tiempo de trabajo
