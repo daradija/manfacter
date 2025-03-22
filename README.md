@@ -191,8 +191,13 @@ OnshapeGPT sugirió casos educativos: facilitar que estudiantes de primaria o se
 
 unque actualmente limitado a demostraciones sencillas, la capacidad de “entender lenguaje y manipular un robusto kernel CAD en la nube” abre la puerta a asistentes comerciales en plataformas como Onshape, Fusion 360, SolidWorks, etc.
 
-
-
+# Feedback Alberto
+- De entrada te puedo decir que nuestra aproximación sería hacia el diseño paramétrico en una primera instancia.
+- El estudio de la universidad de china, zeyan university 2024.
+- Lee el paper y preparamos una batería de preguntas.
+Autorización para leer paper una tarde de trabajo.
+Intentar replicar el trajo de la universidad de china.
 
 # Tiempo de trabajo
 22 Marzo 6:45 - 7:45
+22 Marzo 5 min + 10:16 - 11:37
