@@ -199,5 +199,5 @@ Autorización para leer paper una tarde de trabajo.
 Intentar replicar el trajo de la universidad de china.
 
 # Tiempo de trabajo
-22 Marzo 6:45 - 7:45
+22 Marzo 6:45 - 7:45 Ok.
 22 Marzo 5 min + 10:16 - 11:37
